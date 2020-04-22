@@ -1,0 +1,22 @@
+{
+  "name": "covid19-sms",
+  "version": "0.1.0",
+  "description": "This project is to enable the callback from SMS messages going out to COVID19 test patients who received negative results. This callback is designed to work with Twilio.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "constants": "0.0.2",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node-cache": "^5.1.0",
+    "node-fetch": "^2.6.0",
+    "passport": "^0.4.1",
+    "twilio": "^3.42.0"
+  }
+}
